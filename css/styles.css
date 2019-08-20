@@ -48,6 +48,7 @@ body {
   text-align: center;
   margin: 1.5rem 0;
   letter-spacing: 0.6rem;
+  text-transform: uppercase;
 }
 .hangman__instructions {
   font-family: var(--font-body-stack);
@@ -74,12 +75,15 @@ body {
   border: 3px solid var(--main-bg-color);
   font-size: 1.2rem;
 }
-.hangman__letter--active {
-  background-color: #555;
-}
 .hangman__letter:hover {
   cursor: default;
   border: 3px solid var(--light-yellow);
+}
+.hangman__letter--active {
+  background-color: #555;
+}
+.hangman__letter--active:hover {
+  border: 3px solid var(--main-bg-color);
 }
 .button {
   display: block;
@@ -102,7 +106,7 @@ body {
   padding: 1rem 1.8rem;
   font-family: var(--font-body-stack);
   color: var(--light-white);
-  text-align: center;
+  text-align: left;
 }
 
 /* end screen */

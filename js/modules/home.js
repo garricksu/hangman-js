@@ -15,7 +15,7 @@ const Home = (() => {
     markup += `
       <h1 class="hangman__title">Hangman</h1>
       <button class="button start">New Game</button>
-      <button class="button instructions">Instructions<button>
+      <button class="button instructions">Instructions</button>
     `
     $hangman.innerHTML = markup;
   }
